@@ -11,7 +11,7 @@ class Product360Viewer {
       imageExtension: options.imageExtension || '.jpg',
       sensitivity: options.sensitivity || 1.8,
       autoplay: options.autoplay !== false,
-      autoplaySpeed: options.autoplaySpeed || 85,
+      autoplaySpeed: options.autoplaySpeed || 160,
       ...options
     };
 
@@ -201,7 +201,7 @@ document.addEventListener('DOMContentLoaded', () => {
       imageExtension: '.jpg',
       sensitivity: 1.9,
       autoplay: true,
-      autoplaySpeed: 80
+      autoplaySpeed: 160
     });
   });
 });
