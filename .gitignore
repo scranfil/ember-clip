@@ -1,0 +1,27 @@
+# OS generated files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor / IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Temporary / backup files
+*.tmp
+*.bak
+*~
+
+# OneDrive / sync artifacts (optional but can help)
+~$*
+
+# Large or unnecessary files (uncomment if you want to exclude originals later)
+# ember_back.jpg
+# Ember_front.jpg
+# ember_back.png
+# Ember_front.png
+
+# Keep the clean 360° set and the landing page committed
