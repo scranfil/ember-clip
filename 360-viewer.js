@@ -9,12 +9,12 @@ class ProductSidesGallery {
     // The two key images - using the clean isolated versions for best quality
     this.sides = [
       {
-        src: 'ember-logo-clean.png',
+        src: 'ember-logo-clean.jpg',
         label: 'EMBER Logo',
         description: 'Signature gold logo with flame detail'
       },
       {
-        src: 'ember-tapthatash-clean.png',
+        src: 'ember-tapthatash-clean.jpg',
         label: 'TAP THAT ASH',
         description: 'Bold text on cream accent'
       }
@@ -36,7 +36,7 @@ class ProductSidesGallery {
     this.container.innerHTML = `
       <div class="relative bg-white rounded-3xl overflow-hidden shadow-2xl border border-slate-200">
         <!-- Main Image -->
-        <div class="relative bg-[#f8f9fb] flex items-center justify-center p-8" style="aspect-ratio: 1 / 1.05;">
+        <div class="relative bg-[#f8f9fb] flex items-center justify-center p-6" style="aspect-ratio: 4 / 3;">
           <img 
             class="main-image max-h-full max-w-full object-contain transition-opacity duration-300"
             alt="Ember Clip product"
